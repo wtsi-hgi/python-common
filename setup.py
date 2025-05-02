@@ -10,11 +10,11 @@ except ImportError:
 
 setup(
     name="hgicommon",
-    version="1.3.1",
+    version="1.3.2",
     author="Colin Nolan",
     author_email="colin.nolan@sanger.ac.uk",
     packages=find_packages(exclude=["tests"]),
-    install_requires = [x for x in open("requirements.txt", "r").read().splitlines()],
+    install_requires=[x for x in open("requirements.txt", "r").read().splitlines()],
     url="https://github.com/wtsi-hgi/python-common",
     license="LGPL",
     description="Common Python code used in HGI projects.",
