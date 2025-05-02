@@ -1,4 +1,8 @@
 # Change Log
+## 1.3.2 - 2025-05-02
+### Added
+- A new ComparisonOperator for "in" queries
+
 ## 1.3.0 - 2017-02-22
 ### Added
 - Helper to get open port.
