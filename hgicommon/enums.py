@@ -31,3 +31,4 @@ class ComparisonOperator(Enum):
     EQUALS = "=",
     LESS_THAN = "<"
     GREATER_THAN = ">"
+    CONTAINS = "in"
